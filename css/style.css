@@ -1,0 +1,155 @@
+
+/*--------------*/
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #23272a;
+    font-size: 16PX;
+}
+
+.cleanfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.debug{
+    background-color: rgb(129, 129, 250);
+}
+.container{
+    max-width: 1180px;
+    margin:auto;
+}
+.container__small{
+    max-width: 800px;
+    margin: auto;
+}
+/*F.--------------*/
+
+/*---------------
+
+        BODY
+
+-------------------*/
+
+
+/*BUTTONS*/
+
+.btn{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    color: black;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.btn_login{
+    padding: 10px 20px;
+}
+.download__button {
+    padding: 15px 30px;
+}
+.open__discord {
+    padding: 15px 50px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+.download__button, .open__discord{
+    margin: 15px;
+    font-size: 18px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*F.BUTTONS*/
+
+
+/*HEADER*/
+header{
+    background-color: #3161e0;
+    font-size: 0;
+}
+
+.logo, .main__nav, .login{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+}
+.logo, .login{
+    width: 15%;
+}
+.login{
+    text-align: right;
+}
+.main__nav{
+    width:70%;
+    text-align: center;
+    font-size: 16px;
+}
+.main__nav ul li{
+    display: inline-block;
+    padding: 0 20px;;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+.header__inner{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+.title__header, .subtitle__header{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.title__header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+/*F.HEADER*/
+
+/*MAIN*/
+
+.download__section {
+}
+
+.section__img, .section__text {
+    float: left;
+    padding: 100px 0;
+}
+
+.section__img {
+    width: 70%;
+}
+.section__text {
+    width: 30%;
+    font-size: 25px;
+}
+.text__title{
+    font-weight: 700;
+    padding: 25px 0;
+}
+.text__subtitle{
+    font-size: 20px;
+}
+/*---------------
+
+        F.BODY
+
+-------------------*/
